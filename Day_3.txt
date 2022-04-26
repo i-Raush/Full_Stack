@@ -1,0 +1,50 @@
+# Hoisting:- . In JavaScript, a variable can be declared after it has been used.
+	     . In other words; a variable can be used before it has been declared.
+	     . b = 10
+	       console.log(b);
+	       var b;
+	     . Using a let variable before it is declared will result in a ReferenceError.
+	     . Using a const variable before it is declared, is a syntax errror, so the code will simply not run.
+
+Strings:-
+
+indexof
+
+search
+
+split
+
+length
+
+includes
+
+
+
+#Array:-
+
+push
+
+pop
+
+shift
+
+unshift
+
+join
+
+to string
+
+for each
+
+sort
+
+#Events:-
+
+onclick
+
+onsubmit
+
+change
+
+onkeydown
+

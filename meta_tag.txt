@@ -1,0 +1,24 @@
+                                                                                  Meta Tags
+                                                                                 -----------
+
+#. #. Meta Tag:-
+	. The <meta> tag defines information about an HTML document.
+	. <meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+	. Metadata will not be displayed on the page, but is machine parsable.
+
+#. Uses of meta tags:-
+	. Define keywords for search engines:
+		-> <meta name = "Keywords" content = "HTML, CSS, JavaScript">
+	. Define a description of your page:
+		-> <meta name = "description" content = "Everything about Meta Tag">
+	. Define the author of the page:
+		-> <meta name = "author" content = "Raushan">
+	. Refresh document every 60 secs:
+		-> <meta http-equiv = "refresh" content = "60"
+	. Setting the viewport to make your website look good on all devices:
+		-> The viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen.
+		-> <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		-> The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+		-> The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+
+

@@ -1,0 +1,14 @@
+let and const have their own scopes.
+
+git is used for version control management
+
+azure devops, git lab, big bucket, gerout are flavours of GIT
+
+web 1.0---> static websites
+
+web 2.0 ---> javascript---interactibve sites
+
+web 3.0 ---> blockchain
+
+node modules files must not be uploaded on the githiub
+

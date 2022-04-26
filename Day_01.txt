@@ -1,0 +1,129 @@
+#. HTML:-
+
+#. lts-->long term support---> stable release of some software.
+
+#. HTML is not a programming language.  
+#. HTML is a markup language. 
+#. Coding only in HTML doesn't make you a programmer. In fact, HTML really shines when you use it in conjunction with an actual programming language, such as when using a web framework.
+
+#. In HTML5 semantic elements were introduced.
+#. A semantic element clearly describes its meaning to both the browser and the developer.
+#. Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+#. Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+#. In HTML there are some semantic elements that can be used to define different parts of a web page:
+	<article>
+	<aside>
+	<details>
+	<figcaption>
+	<figure>
+	<footer>
+	<header>                              
+	<main>
+	<mark>
+	<nav>
+	<section>
+	<summary>
+	<time>
+
+#. Meta Tag:-
+	. The <meta> tag defines information about an HTML document.
+	. <meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+	. <meta> tags always go inside the <head> element.
+
+#. Script Tag:-
+	. The <script> tag is used to embed a client-side script (JavaScript).
+	. The <script> element either contains scripting statements, or it points to an external script file through the src attribute.
+
+#. SEO--->search engine optimization.
+	. SEO stands for “search engine optimization.” In simple terms, it means the process of improving your site to increase its visibility when people search for products or services 	  	  related to your business in Google, Bing, and other search engines.
+	. Meta Tag can be used for SEO purpose.
+
+
+
+
+#. CSS:-
+
+#. Pseudo Classes:-
+	. A pseudo-class is used to define a special state of an element.
+	. it can be used to:
+		-> Style an element when a user mouses over it
+		-> Style visited and unvisited links differently
+		-> Style an element when it gets focus
+		-> Example- :hover, :active, :visited, :before, :after, :link .
+
+#. JavaScript is a single-thread language.
+	. A single-thread language is one with a single call stack and a single memory heap.
+	. It means that it runs only one thing at a time.
+	. A call stack is a data structure which basically records where we are in the program.
+
+#. chrome(all browsers)---->run on an engine---- V8 JavaScript engine.
+#. V8 is an engine used for running JavaScript programs
+
+#. var, let, const---->variable declaring techniques.
+
+#. Compariosion / Assignment Operators:-
+	. = ----> value assingning.
+	. == ---> similar----returns true or false----only check for the values.
+	. === ---> same------returns true or false----checks for both value and type of the value---strict check
+
+#. if only accepts true value.
+#. Ternary operator has less time complexity than if...else
+
+#. Higher Order  Function:-
+	. In Javascript, functions can be assigned to variables in the same way that strings or arrays can. They can be passed into other functions as parameters or returned from them as well.
+	. A “higher-order function” is a function that accepts functions as parameters and/or returns a function.
+
+#. a = []---for an empty array in JavaScript.
+
+#. typeof operator:-
+	. typeof operator of undefined is undefined.
+	. typeof operator of null is object.
+	. typeof operator of empty array or empty object is object. 
+
+#. Object in JavaScript:-
+	. In JavaScript, an object is a standalone entity, with properties and type. 
+	. For example -> A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. 
+	. The same way, JavaScript objects can have properties, which define their characteristics.
+
+#. local storage:-
+	. Shared between all tabs and windows from the same origin.
+	. The data does not expire. It remains after the browser restart and even OS reboot.
+	. It is not secured. 
+
+#. Session storage:-
+	. The sessionStorage object is used much less often than localStorage.
+	. Properties and methods are the same, but it’s much more limited:
+	. The sessionStorage exists only within the current browser tab.
+	. Another tab with the same page will have a different storage.
+	. But it is shared between iframes in the same tab (assuming they come from the same origin).
+	. The data survives page refresh, but not closing/opening the tab.
+	. It is a secured approach used in banking systems.
+
+#. console.log -> The console. log() method outputs a message to the web console.
+		  . Black color text with no icon
+
+#. console.error -> The error() method writes an error message to the console.
+		    . The console is useful for testing purposes.
+		    . Red Color text with icon
+
+#. console.debug -> The console.debug() method outputs a message to the web console at the "debug" log level.
+		    . The message is only displayed to the user if the console is configured to display debug output.
+		    . Pure black color text
+
+#. console.table -> The table() method writes a table to the console.
+		    . Write an array as a table in the console:
+			console.table(["Audi", "Volvo", "Ford"]);
+
+#. console.warn -> The warn() method writes a warning to the console.
+		   . Write a warning to the console:
+			console.warn("This is a warning!");
+		   . Yellow color text with icon
+
+#. console.info -> The info() method writes a message to the console.
+		   . Write a message to the console:
+			console.info("Hello world!");
+		   . Blue color text with icon.
+
+
+
+

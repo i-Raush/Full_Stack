@@ -1,0 +1,43 @@
+#. Higher order function:-
+	. In Javascript, functions can be assigned to variables in the same way that strings or arrays can. 
+	. They can be passed into other functions as parameters or returned from them as well.
+	. A “higher-order function” is a function that accepts functions as parameters and/or returns a function.
+#. Examples:-
+	. map function-> . map() calls a function once for each element in an array.
+			 . map() does not change the original array.
+			 . return a new array with square of all element value:
+				let a = [2,3,4]
+				let c = a.map((ele) => ele * ele )
+				log(c) = [4,9,16]
+			 . Here, arrow function is as a parameter for the map function.
+			 . So, arrow function will be termed as a callback function.
+
+	. callback function -> . A callback is a function passed as an argument to another function
+			       . This technique allows a function to call another function
+
+	. filter function - > . The filter() method creates a new array filled with elements that pass a test provided by a function.
+			      . The filter() method does not change the original array.
+			      . Return an array of all values in a[] that are less than 10:
+					let a = [2,10,19,8,7]
+					let c = a.filter (function (ele)
+								{ return ele < 10 } )
+					log(c) = [2,8,7]
+			    
+	. set intervval function -> . The setInterval() method calls a function at specified intervals (in milliseconds).
+				    . The setInterval() method continues calling the function until clearInterval() is called, or the window is closed.
+				    . 1 second = 1000 milliseconds.
+				    . setInterval { log(1), 3000}
+					   => It will keep printing 1 after every 3 seconds.
+
+	. set timeout function -> . The setTimeout() method calls a function after a number of milliseconds.
+				  . settimeout{ log(1), 5000 }
+					   => It will print after 5 seconds of executing the function.
+
+#. Debouncing:- . Debouncing is a programming practice used to ensure that time-consuming tasks do not fire so often, that it stalls the performance of the web page.
+		. In other words, it limits the rate at which a function gets invoked.
+		. It can be done on the basis of two parameters:- 
+			a> time of typing     b> letters typed
+		. a-> for example, while searching in a database it can be set in such a way that it will hit for search only after 3 seconds of user being typing in the search box.
+		. b-> O, it can be set in such a way that, it will hit a search in databas only after the user types 3 letters in the search box.
+
+
