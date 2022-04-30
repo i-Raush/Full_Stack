@@ -1,0 +1,24 @@
+same variable can't be declared twice.
+	let a = []
+	let a = [21,32,45] -----> syntax erroe
+
+ARRAY in js:-
+
+every()
+
+find()
+
+some()
+
+findIndex()
+
+flat()
+
+indexof()
+
+array of abject---> multiple objects inside ann array.
+
+json 
+
+
+

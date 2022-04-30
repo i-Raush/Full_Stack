@@ -1,0 +1,7 @@
+# Collaborating on GitHub:-
+
+first -- git clone ---> for cloning the repository into the local sysytem.
+then --- git pull---> for getting all thhe files of the remote repository.
+make changes in the file---> if facing any conflict then resolve that conflit---> then add that file ----> 
+then commit before pushing.
+git push --- try uploading your changes.

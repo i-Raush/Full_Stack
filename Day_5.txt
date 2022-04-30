@@ -1,0 +1,24 @@
+# GIT:-
+
+# Commands:-
+	git add . -> for adding all files.
+	git commit -m "message"  -> 
+	git push ->
+	git pull -> 
+	git stash -> 
+	git stash apply -> 
+	git fetch origin ->
+	git rebase origin / {branch name} -> 
+	git merge ->
+	git commit --amend ->
+	git branch -a ->
+	git remote ->
+	git init ->
+	git checkout {branch name} ->
+	git clone -> 
+
+# pull request ->
+
+# merge conflict -> 
+	
+
