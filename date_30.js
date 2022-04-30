@@ -1,15 +1,5 @@
-// let a = ['a','b','c','d']
-// b = 0
-// a.forEach((ele) => {
-//     b +=1
-// })
-// console.log("Length of array a: " + b);
-
-localStorage.setItem('hi','khjhvjv')
-console.debug(localStorage.getItem('hi'))
-
-console.log("Im Raush");
+console.log("I m Raush");
 
 function setPrint(params) {
-    console.log("Im Developer");
+    console.log("I m Developer");
 }
