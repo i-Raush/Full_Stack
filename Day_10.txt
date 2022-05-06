@@ -1,0 +1,17 @@
+Components:-
+	. components in react are used for avoiding repetion of same code again again.
+	. We make components for all important jobs so that we can import them wherever we want to use them.
+
+carousel.js
+
+# lazy loading -> . Loading just as much of files or data that is required.
+		  . It enhances speed of code.
+
+# useState -> 
+
+# life hook -> 
+
+# nodemon is a tool that helps develop Node. js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+
+

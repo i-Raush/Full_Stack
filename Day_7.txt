@@ -1,0 +1,6 @@
+Authorization and Authentication
+
+local storage and session storage
+-> while logging in on facebook...facebook makes us store our content in its local storage....so we need not to login again even after closing the tabs.
+-> when SBI makes us login it stotres our data on the session storage...that's why when we close the tab...we need to login again.
+

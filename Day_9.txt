@@ -1,0 +1,8 @@
+package locj json---> a file which gets generated automatically
+
+componrnts are created like <APP> </APP>
+
+JSX---integrated version of html and js
+
+react---> singe page application
+

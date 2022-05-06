@@ -1,0 +1,10 @@
+react---javacsript library based on js---> open source---developed by facebook in 2005
+
+
+-> npx create-react -app {appname}
+
+-> In any folder to open vs code type --> code .
+
+-> 
+
+
