@@ -1,0 +1,1 @@
+props.children ---> to print stuff written in between some component on the UI.
